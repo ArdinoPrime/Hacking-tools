@@ -1,0 +1,7 @@
+ftp -v -n >>/tmp/ftpb.og <<EOF
+  open $URL
+  user $USER $PASS
+  binay
+  put $FILE
+  quit
+EOF
